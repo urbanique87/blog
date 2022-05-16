@@ -1,0 +1,29 @@
+{
+  "search.exclude": {
+    "**/.yarn": true,
+    "**/.pnp.*": true
+  },
+  "typescript.tsdk": ".yarn/sdks/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "[javascript]": {
+    "editor.insertSpaces": false,
+    "editor.tabSize": 4
+  },
+  "[typescript]": {
+    "editor.insertSpaces": false,
+    "editor.tabSize": 4
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "files.associations": {
+    ".env.development": "env",
+    ".env.production": "env",
+    "*.lock": "yarnlock"
+  },
+  "prettier.prettierPath": ".vscode/pnpify/prettier/index.js"
+}
